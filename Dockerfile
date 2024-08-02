@@ -14,5 +14,4 @@ USER gitlab
 WORKDIR /app/gitlab
 ADD gitlab.py /app/gitlab
 ADD gitlab-documentation.json /app/gitlab
-#CMD ["tail","-f","/dev/null"]
 CMD ["python3", "gitlab.py"]
