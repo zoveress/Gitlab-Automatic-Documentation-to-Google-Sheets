@@ -1,7 +1,6 @@
 FROM python:3.12.4-slim-bullseye
 ENV GITLAB_TOKEN="dummy"
 ENV SLEEP=600
-ENV SHEET_ID="dummy"
 ENV GOOGLE_SHEET_CREDENTIALS_FILE="gitlab-documentation.json"
 ENV SHEET_NAME="Gitlab_Devops_Repositories"
 RUN apt update
